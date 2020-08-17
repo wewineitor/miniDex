@@ -1,0 +1,66 @@
+body{
+    background-image: url('img/fondo.png');
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@font-face{
+    font-family: bits;
+    src: url('bits.ttf');
+}
+
+#input{
+    width: 35%;
+    height: 40px;
+    font-family:  bits;
+    font-size: 25px;
+    margin-left: 35%;
+}
+
+h1{
+    font-family: bits;
+    margin-left: 48%;
+    font-size: 50px;
+}
+
+#boton{
+    font-family: bits;
+    font-size: 50px;
+    margin-left: 48%;
+}
+
+#nombre{
+    font-family: bits;
+    font-size: 50px;
+    text-align: center;
+}
+
+#sprite{
+    text-align: center;
+}
+
+#id{
+    font-family: bits;
+    font-size: 30px;
+    text-align: center;
+    background-color: aqua;
+    width: 25%;
+    margin-left: 37%;
+    border-radius: 50px;
+}
+
+#carta{
+    width: 35%;
+    margin-left: 35%;
+}
+
+#shiny{
+    width: 15%;
+    font-family: bits;
+    font-size: 20px;
+    background: gold;
+    outline: none;
+    cursor: pointer;
+}
+
